@@ -598,7 +598,7 @@ h1, h2, h3, h4, h5, h6 {
 .section--dark h4:not([class*='text-color-']):not([class*='color-']),
 .section--dark h5:not([class*='text-color-']):not([class*='color-']),
 .section--dark h6:not([class*='text-color-']):not([class*='color-']) {
-  color: #fff;
+  color: #000;
 }
 
 .bg-white h1:not([class*='text-color-']):not([class*='color-']),
@@ -615,6 +615,9 @@ p {
 }
 
 .section--dark p:not([class*='text-color-']):not([class*='color-']) {
+  font-weight: 400;
+  font-family: 'Space Grotesk', sans-serif;
+  font-style: normal;
   color: #979EA5;
 }
 
@@ -820,7 +823,7 @@ textarea::-webkit-input-placeholder, .form--darkblue
 }
 
 .bg-color--dark--2 {
-  background: #191B28;
+  background: #ffffff;
 }
 
 .bg-color--dark--3 {
@@ -1078,6 +1081,24 @@ textarea::-webkit-input-placeholder, .form--darkblue
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+    font-family: Space Grotesk;
+    font-style: normal;
+    line-height: normal;
+}
+.btn .btn__text2 {
+  color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+    font-family: Space Grotesk;
+    font-style: normal;
+    line-height: normal;
 }
 
 .btn i {
@@ -1332,7 +1353,7 @@ textarea::-webkit-input-placeholder, .form--darkblue
 }
 
 .rounded--full, .rounded--full[class*="bg-color--primary-opacity-"]::before, .btn.rounded--full, .rounded--full.btn-bg--primary--05::before {
-  border-radius: 6.25rem;
+  border-radius: 10px;
 }
 
 /**! ----- Opacity ---- **/
@@ -2532,7 +2553,7 @@ a.justify-content-between .arrow_right,
   .space,
   .space--2,
   .space--3 {
-    padding-top: 5.66667rem !important;
+    padding-top: 0.6666699999999963rem !important;
     padding-bottom: 5.66667rem !important;
   }
   .space--top,
@@ -6578,7 +6599,12 @@ body.boxed-layout .switchable__image {
 
 /*---------- Navbar Dark ----------*/
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.75);
+  color: #6717CE;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.current-menu-item {
@@ -6922,7 +6948,7 @@ body.boxed-layout .switchable__image {
   }
   .navbar-dark .navbar-toggler-icon,
   .navbar-sticky--on .navbar-toggler-icon {
-    background: #fff;
+    background: #000;
   }
   .navbar-light .navbar-toggler-icon,
   .navbar-light.navbar-sticky--on .navbar-toggler-icon {
@@ -6941,7 +6967,7 @@ body.boxed-layout .switchable__image {
   .navbar-dark .navbar-toggler-icon:before,
   .navbar-sticky--on .navbar-toggler-icon:before, .navbar-dark .navbar-toggler-icon:after,
   .navbar-sticky--on .navbar-toggler-icon:after {
-    background: #fff;
+    background: #000;
   }
   .navbar-light .navbar-toggler-icon:before,
   .navbar-light.navbar-sticky--on .navbar-toggler-icon:before, .navbar-light .navbar-toggler-icon:after,
