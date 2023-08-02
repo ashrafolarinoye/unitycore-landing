@@ -1,1 +1,1 @@
-# dydx-frontend-clone
+# Unitycore-landing-frontend
